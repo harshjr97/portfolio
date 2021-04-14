@@ -158,7 +158,38 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form name='contact-form' method='POST' data-netlify="true">
+
+                    <form name="contact" method="POST" data-netlify="true">
+
+                    <div class="fields">
+
+                    <div class="field name">
+                    <label>Your Name: <input type="text" placeholder="Name" name="name" /></label>
+                    </div>
+                    <br>
+                    <div class="field email">
+                    <label>Your Email: <input type="email" placeholder="Email" name="email" /></label>
+                    </div>
+
+                    </div>
+
+                    <br>
+                    <div class="field">
+                    <label>Subject: <input type="text" placeholder="Subject" name="subject" /></label>
+                    </div>
+                    <br>
+                    <div class="field textarea">
+                    <label>Message: <textarea cols="30" rows="10" placeholder="Message.." name="message"></textarea></label>
+                    </div>
+                    <br>
+                    <div class="button">
+                    <button type="submit">Send</button>
+                    </div>
+                    <br>
+                    </form>
+
+<!--
+                    <form name='contact-form' netlify>
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" placeholder="Name" required>
@@ -170,6 +201,8 @@
                         <div class="field">
                             <input type="text" placeholder="Subject" required>
                         </div>
+
+
                         <div class="field textarea">
                             <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
@@ -177,6 +210,8 @@
                             <button type="submit">Send message</button>
                         </div>
                     </form>
+
+                    -->
                 </div>
             </div>
         </div>
