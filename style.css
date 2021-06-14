@@ -166,7 +166,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("header-image.jpg") no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url("22.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
