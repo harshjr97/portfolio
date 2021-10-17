@@ -1,19 +1,26 @@
 <!doctype html>
 <html lang="en">
-    <link rel="stylesheet" href="style1.css">
-<body>
 
-    <h1 style="color: aliceblue; padding-bottom: 50px;">PROJECTS</h1>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style1.css">
+<body style="background-color: rgb(59, 59, 59);">
+
+    <h1 class="fw-bolder text-light" style="color: black; padding-bottom: 50px;">PROJECTS</h1>
 
     <main>
         <ul id="cards">
             <li class="card" id="card_1">
                 <div class="card__content">
                     <div>
-                        <h2>Air Drawing</h2>
+                        <h2 class="fw-bold">Air Drawing</h2>
                         <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 30px;">Draw Things on air using Blue Tip in web cam</p>
-                        <p style="font-size: 20px;">Build using python openCV library</p>
-                        <p><a href="https://github.com/harshjr97/opencv/tree/main/Virtual%20Paint" class="btn btn--accent">Source Code</a></p>
+
+                        <p class="fst-italic" style="font-size: 20px">Build using python openCV library</p>
+
+                        
+
+                        <p><a href="https://github.com/harshjr97/opencv/tree/main/Virtual%20Paint" class="btn btn-primary">Source Code</a></p>
                     </div>
                     <figure>
                         <img src="./Air-Drawing-Project-Thumbnail-768x416.jpg" alt="Image description">
@@ -21,7 +28,27 @@
                 </div>
             </li>
         </ul>
+        <ul id="cards" class="py-5 my-5">
+            <li class="card" id="card_1">
+                <div class="card__content">
+                    <div>
+                        <h2 class="fw-bold">Text Utils</h2>
+                        <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 30px;">You can short your long ugly looking links into short and simple</p>
+                        
+                        <p class="fst-italic" style="font-size: 20px;">Build using python and Django</p>
+                        <p><a href="https://linkutils.herokuapp.com/" class="btn btn-primary">Check Out</a></p>
+                    </div>
+                    <figure>
+                        <img src="./Screenshot (20).png" alt="Image description">
+                    </figure>
+                </div>
+            </li>
+        </ul>
     </main>
     
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
 </html>
